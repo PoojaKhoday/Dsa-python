@@ -1,5 +1,5 @@
 class Solution:
-    def Pattern5(self, n):
+    def Pattern7(self, n):
         for i in range(n):
             for j in range(n-i):
                 print(" ",end = " ")
@@ -10,4 +10,4 @@ class Solution:
             print()
 n = int(input())
 obj = Solution()
-obj.Pattern5(n)
+obj.Pattern7(n)
