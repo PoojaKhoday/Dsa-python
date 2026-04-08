@@ -1,9 +1,9 @@
 class Solution:
-    def Pattern14(self,n):
+    def Pattern15(self,n):
         for i in range(1,n+1):
-            for j in range(i):
+            for j in range(n-i+1):
                 print(chr(65+j), end = " ")
             print()
 n = int(input()) 
 obj = Solution()
-obj.Pattern14(n)                                      
+obj.Pattern15(n)                                      
