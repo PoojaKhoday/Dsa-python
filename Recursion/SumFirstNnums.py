@@ -1,6 +1,4 @@
 class Solution:
-    #def NnumbersSum(self, N):
-        #your code goes here
         def NnumbersSum(self,N):
             if N==0:
                 return 0
