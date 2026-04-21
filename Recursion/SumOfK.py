@@ -5,16 +5,13 @@ class Solution:
                 print(ds)
             return
 
-        # PICK
         ds.append(arr[i])
         s += arr[i]
         self.SumOfK(i + 1, ds, s, arr, target, n)
 
-        # BACKTRACK
         ds.pop()
         s -= arr[i]
 
-        # NOT PICK
         self.SumOfK(i + 1, ds, s, arr, target, n)
 
 
