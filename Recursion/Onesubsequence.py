@@ -3,16 +3,14 @@ class Solution:
         if i == n:
             if s == target:
                 print(ds)
-                return True   # stop further recursion
+                return True  
             return False
 
-        # Take the element
         ds.append(arr[i])
         s += arr[i]
         if self.SumOfK(i + 1, ds, s, arr, target, n):
             return True
 
-        # Not take the element
         ds.pop()
         s -= arr[i]
         if self.SumOfK(i + 1, ds, s, arr, target, n):
@@ -20,8 +18,6 @@ class Solution:
 
         return False
 
-
-# Input
 n = int(input())
 arr = list(map(int, input().split()))
 target = int(input())
