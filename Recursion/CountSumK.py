@@ -5,10 +5,8 @@ class Solution:
                 return 1
             return 0
 
-        # Include current element
         take = self.SumOfK(i + 1, s + arr[i], arr, target, n)
 
-        # Exclude current element
         not_take = self.SumOfK(i + 1, s, arr, target, n)
 
         return take + not_take
