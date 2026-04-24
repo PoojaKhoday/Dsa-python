@@ -10,11 +10,8 @@ class Solution:
         not_take = self.SumOfK(i + 1, s, arr, target, n)
 
         return take + not_take
-
-
 n = int(input())
 arr = list(map(int, input().split()))
 target = int(input())
-
 obj = Solution()
 print(obj.SumOfK(0, 0, arr, target, n))
