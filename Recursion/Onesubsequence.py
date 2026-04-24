@@ -24,3 +24,9 @@ target = int(input())
 
 obj = Solution()
 obj.SumOfK(0, [], 0, arr, target, n)
+
+#sample input/output
+#5
+#1 2 3 4 5
+#2
+#[2]
