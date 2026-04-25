@@ -6,4 +6,11 @@ class Solution:
         print(n)
 n = int(input("Enter number of times: "))
 obj = Solution()
-obj.printNumbers(n)      
+obj.printNumbers(n) 
+
+#input & output
+#Enter number of times: 4
+#1
+#2
+#3
+#4
