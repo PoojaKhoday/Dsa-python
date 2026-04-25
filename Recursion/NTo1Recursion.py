@@ -8,3 +8,11 @@ class Solution:
 n = int(input("Enter number of times: "))
 obj = Solution()
 obj.printNumbers(n)      
+
+#Input & output
+#Enter number of times: 5
+#5
+#4
+#3
+#2
+#1
