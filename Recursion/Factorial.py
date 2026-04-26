@@ -6,3 +6,6 @@ class Solution:
 n = int(input())  
 obj = Solution()
 print(obj.factorial(n))
+#Sample input & output
+#5
+#120
