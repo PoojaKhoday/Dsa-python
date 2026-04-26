@@ -14,3 +14,37 @@ def subsequences(s, index, path):
 s = input().strip()
 
 subsequences(s, 0, "")
+
+#Sample input & output
+#Pooja
+#Pooja
+#Pooj
+#Pooa
+#Poo
+#Poja
+#Poj
+#Poa
+#Po
+#Poja
+#Poj
+#Poa
+#Po
+#Pja
+#Pj
+#Pa
+#P
+#ooja
+#ooj
+#ooa
+#oo
+#oja
+#oj
+#oa
+#o
+#oja
+#oj
+#oa
+#o
+#ja
+#j
+#a
