@@ -13,3 +13,7 @@ result = obj.countoccurrence(number,arr)
 print(result)
 
 #Sample input & output
+#5
+#2
+#1 2 2 2 3
+#3
