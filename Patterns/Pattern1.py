@@ -8,3 +8,10 @@ n = int(input())
 obj = Solution()
 obj.pattern1(n)                
 
+#sample input & output
+#5
+#*****
+#*****
+#*****
+#*****
+#*****
