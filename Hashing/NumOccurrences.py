@@ -5,16 +5,12 @@ def frequency_query():
     freq = {}
     for num in arr:
         freq[num] = freq.get(num, 0) + 1
-
     print("Enter numbers to query (0 to stop):")
-
     while True:
         number = int(input())
         if number == 0:
             break
         print(freq.get(number, 0))
-
-
 frequency_query()
 #sample input & output
 #Enter n: 5
