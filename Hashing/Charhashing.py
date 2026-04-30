@@ -7,7 +7,7 @@ def character_hashing():
     for ch in s:
         freq[ch] = freq.get(ch, 0) + 1
 
-    print("Enter characters to query (0 to stop):")
+    print("Enter characters to query:")
 
     while True:
         ch = input()
