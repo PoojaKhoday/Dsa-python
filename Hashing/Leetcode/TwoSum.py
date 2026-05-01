@@ -9,3 +9,8 @@ nums = list(map(int, input().strip('[]').split(',')))
 target = int(input())
 obj = Solution()
 print(obj.twoSum(nums,target))
+
+#sample input & output
+#[1,2,3,4]
+#3
+#[0, 1]
