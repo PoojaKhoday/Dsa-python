@@ -6,4 +6,7 @@ class Solution:
         return False     
 x = int(input())
 obj = Solution()
-print(obj.isPalindrome(x))            
+print(obj.isPalindrome(x))      
+  
+#Time Complexity : O(n)
+#Space Complexity : O(n)
