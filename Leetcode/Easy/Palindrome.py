@@ -10,3 +10,7 @@ print(obj.isPalindrome(x))
   
 #Time Complexity : O(n)
 #Space Complexity : O(n)
+
+#sample input & output
+#121
+#True
