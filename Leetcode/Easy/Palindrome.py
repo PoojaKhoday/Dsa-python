@@ -14,3 +14,4 @@ print(obj.isPalindrome(x))
 #sample input & output
 #121
 #True
+
