@@ -13,4 +13,7 @@ class Solution:
 n = int(input())  
 obj = Solution()
 print(obj.isArmstrong(n))
-        
+
+#sample i/p & o/p
+# 153 ((1^3 + 5^3 + 3^3 = 153))
+# True
