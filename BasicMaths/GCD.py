@@ -12,3 +12,7 @@ class Solution:
 n1,n2 = list(map(int,input().split()))
 obj = Solution()
 print(obj.GCD(n1,n2))
+
+#input & output
+#12 6
+#6
