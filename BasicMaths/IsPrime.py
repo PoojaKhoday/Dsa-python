@@ -11,3 +11,7 @@ class Solution:
 n = int(input()) 
 obj = Solution() 
 print(obj.isPrime(n))        
+
+#sample input & output
+#12
+#False
