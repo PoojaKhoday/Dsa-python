@@ -8,4 +8,6 @@ class Solution:
 n = int(input())  
 obj = Solution()
 print(obj.divisors(n))
-        
+#sample input & output\
+# 5
+#[1, 5]        
