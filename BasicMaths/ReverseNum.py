@@ -9,4 +9,7 @@ class Solution:
 n = int(input())  
 obj = Solution()
 print(obj.reverseNumber(n))
-        
+
+#sample input & output
+# 1224
+#4221        
