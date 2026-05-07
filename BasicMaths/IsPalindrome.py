@@ -14,3 +14,6 @@ n = int(input())
 obj = Solution()
 print(obj.isPalindrome(n))
         
+#sample input & uutput
+# 121
+#True        
